@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <p>这是移动端头部</p>
-    <slot />
+  <div class="m-container">
+    <div class="m-header">
+      <div class="m-header-left"></div>
+      <button>联系我们</button>
+    </div>
+    <slot/>
   </div>
 </template>
